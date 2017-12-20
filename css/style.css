@@ -1,0 +1,119 @@
+@import url("css/normalize.css");
+
+@font-face {
+  font-family: "SpecialElite";
+  src: url("../fonts/SpecialElite.woff");
+}
+
+@font-face {
+  font-family: "cardo-regular";
+  src: url("../fonts/cardo/cardo-regular.woff");
+}
+
+@font-face {
+  font-family: "cardo-bold";
+  src: url("../fonts/cardo/cardo-bold.woff");
+}
+
+@font-face {
+  font-family: "cardo-italic";
+  src: url("../fonts/cardo/cardo-italic.woff");
+}
+
+body {
+  background-size: 100% 1.5em;
+  background-image: -webkit-linear-gradient(#eee .05em, transparent 1px);
+  background-image: -moz-linear-gradient(#eee .05em, transparent 1px);
+  background-image: linear-gradient(#eee .05em, transparent 1px);
+}
+
+article {
+  min-width: 400px;
+  width: 50%;
+  margin: auto;
+  font-family: "cardo-regular";
+  text-align: justify;
+  /*color: #5e5b5b;*/
+}
+
+h1, h2 {
+  font-family: "SpecialElite";
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  line-height : 1.2;
+  font-size: 2.5em;
+  padding-top: 30px;
+}
+
+h3 {
+  font-family: "SpecialElite";
+  line-height : 1;
+  font-size: 1.5em;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+h3:before {
+  content: "\2767";
+}
+
+.poem {
+  text-align: left;
+  font-family: "cardo-italic";
+  font-size: 0.8em;
+  margin: 0;
+  line-height : 1.8;
+}
+
+.poem:before {
+  font-family: "cardo-bold";
+  content: open-quote;
+  font-size: 2em;
+  margin-left: -14px;
+}
+
+.author {
+  font-family: "cardo-regular";
+  text-align: right;
+  text-transform: uppercase;
+  display: block;
+}
+
+.cursive {
+  font-family: "cardo-italic";
+}
+
+.bigletter:first-letter {
+  font-size: 2.7em;
+}
+
+.decoration {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.symbol {
+  font-size: 4em;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.exupery {
+  display: inline;
+  font-family: "cardo-italic";
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.exupery:before {
+  content:
+}
